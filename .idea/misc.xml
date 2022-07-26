@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AttendanceSystem/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/AttendanceSystem/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/AttendanceSystem/app/src/main/res/layout/activity_classes_list.xml" value="0.11302083333333333" />
+        <entry key="..\:/AttendanceSystem/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/AttendanceSystem/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/AttendanceSystem/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/AttendanceSystem/app/src/main/res/layout/item.xml" value="0.1" />
       </map>
     </option>
   </component>

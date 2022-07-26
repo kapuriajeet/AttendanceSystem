@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:fontFamily="sans-serif-condensed"
         android:textSize="28sp"
         android:paddingBottom="20dp"
@@ -44,6 +44,42 @@
         android:paddingStart="20dp"
         android:paddingEnd="0dp"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your Role"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgRole"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbStudent"
+            android:text="Student"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbFaculty"
+            android:text="Faculty"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            />
+    </RadioGroup>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/loginBtn"

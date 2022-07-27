@@ -98,7 +98,7 @@ public class Login extends AppCompatActivity {
 
                                     if(getPassword.equals(passwordText)){
                                         Toast.makeText(Login.this, "Successfully logged in Faculty", Toast.LENGTH_SHORT).show();
-                                        startActivity(new Intent(Login.this, MainActivity.class));
+                                        startActivity(new Intent(Login.this, FacultyClassesList.class));
                                         finish();
                                     }
                                     else{
